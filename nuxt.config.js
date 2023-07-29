@@ -63,8 +63,7 @@ export default {
     dir: './dist_server'
   },
   build: {
-    target: 'static'
-    // before was 'server'
+    target: 'server'
   },
   server: {
     port: process.env.PORT,
