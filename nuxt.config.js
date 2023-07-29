@@ -25,15 +25,15 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
-    script: [
-      {src: 'https://www.googletagmanager.com/gtag/js?id=G-JPN8CF9YDY', async: true },
-      {src: 'https://www.googletagmanager.com/gtag/js?id=AW-10841851493', async: true},
-      {src: 'https://www.googletagmanager.com/gtag/js?id=AW-10904855630', async: true},
-      {src: '/js/gtag.js'},
-      {src: '/js/fb.js'},
-      {src: '/js/snapchat.js'},
-      {src: '/js/tiktok.js'}
-    ]
+    // script: [
+    //   {src: 'https://www.googletagmanager.com/gtag/js?id=G-JPN8CF9YDY', async: true },
+    //   {src: 'https://www.googletagmanager.com/gtag/js?id=AW-10841851493', async: true},
+    //   {src: 'https://www.googletagmanager.com/gtag/js?id=AW-10904855630', async: true},
+    //   {src: '/js/gtag.js'},
+    //   {src: '/js/fb.js'},
+    //   {src: '/js/snapchat.js'},
+    //   {src: '/js/tiktok.js'}
+    // ]
   },
   css: [
     '~/assets/scss/reset.scss'
