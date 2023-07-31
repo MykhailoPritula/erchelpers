@@ -49,6 +49,7 @@ export default {
     '@nuxtjs/dotenv'
   ],
   router: {
+    // base: '/',
     base: '/erchelpers/',
     mode: 'history',
     extendRoutes(routes, resolve) {
