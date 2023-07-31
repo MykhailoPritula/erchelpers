@@ -49,7 +49,7 @@ export default {
     '@nuxtjs/dotenv'
   ],
   router: {
-    base: '/',
+    base: '/erchelpers/',
     mode: 'history',
     extendRoutes(routes, resolve) {
       routes.push({
@@ -60,10 +60,11 @@ export default {
     },
   },
   generate: {
-    dir: './dist_server'
+    dir: './dist'
   },
   build: {
-    target: 'server'
+    // target: 'server'
+    target: 'static'
   },
   server: {
     port: process.env.PORT,
